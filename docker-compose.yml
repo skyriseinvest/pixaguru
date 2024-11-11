@@ -1,0 +1,28 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:80"  # Exposes port 80 in the container to port 8000 on your host machine
+    volumes:
+      - .:/var/www/html  # Maps your project folder to the container
+    environment:
+      - APACHE_RUN_USER=www-data
+      - APACHE_RUN_GROUP=www-data
+    depends_on:
+      - db  # Ensures the database service is started before the app service
+
+  db:
+    image: mysql:5.7  # Using MySQL version 5.7; adjust if needed
+    platform: linux/amd64  # Specify architecture to use emulation
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword  # Set a strong root password
+      MYSQL_DATABASE: codeigniter_db  # Name of the initial database
+      MYSQL_USER: codeigniter_user  # Create a specific user for CodeIgniter
+      MYSQL_PASSWORD: codeigniter_password  # Password for the specific user
+    ports:
+      - "3306:3306"  # Expose MySQL's default port
+    volumes:
+      - db_data:/var/lib/mysql  # Store MySQL data outside of the container
+
+volumes:
+  db_data:  # Named volume to persist database data

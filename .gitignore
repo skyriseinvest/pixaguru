@@ -1,1 +1,47 @@
+# Ignore Composer dependencies (if you are using Composer)
+vendor/
+
+# Ignore system folder (CodeIgniter system files)
+system/
+
+# Ignore application cache and log files
+application/cache/
+application/logs/
+
+# Ignore the user-specific environment variables
+application/config/database.php
+application/config/config.php
+
+# Ignore build-related files (such as compiled code and logs)
+*.log
+*.cache
+*.bak
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore IDE and OS-specific files
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore Docker and environment files
+*.env
+*.dockerfile
+
+# Ignore test-related files (e.g., PHPUnit)
+phpunit.xml
+phpunit.xml.dist
+
+# Ignore the .git directory itself in the Docker context
+.git/
+
+# Ignore node_modules (if you are using Node.js)
+node_modules/
+
+# Ignore generated assets from build tools (if using frontend build systems like npm or grunt)
+public/assets/

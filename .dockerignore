@@ -1,0 +1,43 @@
+# Ignore the .git directory
+.git/
+
+# Ignore the node_modules (if using Node.js or any frontend tools)
+node_modules/
+
+# Ignore the application cache and logs
+application/cache/
+application/logs/
+
+# Ignore system folder (CodeIgniter core system files are already in the image)
+system/
+
+# Ignore test files
+phpunit.xml
+phpunit.xml.dist
+
+# Ignore local configuration files (e.g., environment-specific database or app config files)
+application/config/database.php
+application/config/config.php
+
+# Ignore IDE and OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore any other environment files, e.g. local .env files
+*.env
+
+# Ignore temporary or backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Ignore generated assets from frontend build tools (if applicable)
+public/assets/
+
+# Ignore Docker-related files that are not needed in the image
+docker-compose.yml
+Dockerfile*
+*.dockerfile

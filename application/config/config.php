@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://192.168.29.165/pixaguru_new/';
+$config['base_url'] = 'http://localhost:8000/';
 // $protocol = is_https() ? "https://" : "http://";
 // $config['base_url'] = isset($_SERVER['HTTP_HOST']) ? $protocol.$_SERVER['HTTP_HOST']."/dev/" : "";
 /*   
@@ -223,7 +223,7 @@ $config['allow_get_array'] = TRUE;
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = 4;
 
 /*
 |--------------------------------------------------------------------------
