@@ -23,6 +23,7 @@ services:
       - "3306:3306"  # Expose MySQL's default port
     volumes:
       - db_data:/var/lib/mysql  # Store MySQL data outside of the container
+    restart: always
 
 volumes:
   db_data:  # Named volume to persist database data
