@@ -16,7 +16,7 @@ class Admin extends CI_Controller {
 		languageLoad($lang);
 		
 	}
-	/**
+	/**@
 	 * Admin User View
 	 */
 	public function index(){
