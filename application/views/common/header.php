@@ -8,7 +8,7 @@
     $siteTitle = $this->Common_DML->get_data('theme_setting', $where);
     ?>
     <title>
-        <?php echo isset($siteTitle[0]['data_value']) && !empty($siteTitle[0]['data_value']) ? $siteTitle[0]['data_value'] : html_escape('Admin | Pixaguru Image Editor'); ?>
+        <?php echo isset($siteTitle[0]['data_value']) && !empty($siteTitle[0]['data_value']) ? $siteTitle[0]['data_value'] : html_escape('Admin | Pixelium'); ?>
     </title>
 
     <meta charset="UTF-8">

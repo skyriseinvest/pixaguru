@@ -7,7 +7,7 @@
          $where = array('user_id'=>$userid,'data_key' =>'siteTitle');
          $siteTitle = $this->Common_DML->get_data( 'theme_setting', $where);   		
         ?>
-		<title><?php echo  isset($siteTitle[0]['data_value'])&&!empty($siteTitle[0]['data_value'])?$siteTitle[0]['data_value']:html_escape('Admin | Pixaguru Image Editor'); ?></title>
+		<title><?php echo  isset($siteTitle[0]['data_value'])&&!empty($siteTitle[0]['data_value'])?$siteTitle[0]['data_value']:html_escape('Admin | Pixelium'); ?></title>
 		  	
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">

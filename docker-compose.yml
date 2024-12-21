@@ -4,9 +4,9 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "80:80"  # Exposes port 80 in the container to port 8000 on your host machine
+      - "80:80"  # Exposes port 80 in the container to port 80 on your host machine
     volumes:
-      - .:/var/www/html  # Maps your project folder to the container
+      - .:/var/www/html:cached  # Maps your project folder to the container with optimized sync
     environment:
       - APACHE_RUN_USER=www-data
       - APACHE_RUN_GROUP=www-data

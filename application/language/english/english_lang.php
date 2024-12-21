@@ -156,7 +156,7 @@ $lang['ltr_admin_templ_gift_certificate_1920_1080'] = "Gift Certificate - 1920x1
 $lang['ltr_admin_templ_select_category'] = "Select Category";
 
 // Thankyou page
-$lang['ltr_thankyou_page_title'] = "Pixaguru Image Editor";
+$lang['ltr_thankyou_page_title'] = "Pixelium";
 $lang['ltr_thankyou_section_title'] = "Successfully charged";
 $lang['ltr_thankyou_desc_strong_text'] = "Please check your email";
 $lang['ltr_thankyou_desc_text'] = "for further instructions on how to complete your account setup.";
@@ -184,7 +184,7 @@ $lang['ltr_subscribe_user_plan_period_start'] = "Plan period start";
 $lang['ltr_subscribe_user_plan_period_end'] = "Plan Period End";
 
 // subscription_plan
-$lang['ltr_subscribe_plan_page_title'] = "Pixaguru Image Editor";
+$lang['ltr_subscribe_plan_page_title'] = "Pixelium";
 $lang['ltr_subscribe_plan_title'] = "Subscription";
 $lang['ltr_subscribe_plan_modal_btn'] = "Sign Up";
 $lang['ltr_subscribe_plan_form_name'] = "Name";
@@ -334,8 +334,8 @@ $lang['ltr_dash_mdl_web_name'] = "Website Name";
 $lang['ltr_dash_mdl_rename_btn'] = "Rename";
 
 // Header 
-$lang['ltr_auth_header_title'] = "Pixaguru Image Editor";
-$lang['ltr_header_title'] = "Pixaguru Image Editor";
+$lang['ltr_auth_header_title'] = "Pixelium";
+$lang['ltr_header_title'] = "Pixelium";
 $lang['ltr_header_logout_btn'] = "Logout";
 $lang['ltr_header_my_camp_btn'] = "My Campaigns";
 $lang['ltr_header_temp_btn'] = "Templates";
@@ -510,7 +510,7 @@ $lang['ltr_coupon_popup_update'] = "Update Coupon";
 
 
 // Template Editor On Working
-$lang['ltr_editor_page_title'] = "Pixaguru Image Editor";
+$lang['ltr_editor_page_title'] = "Pixelium";
 $lang['ltr_editor_preloader_images'] = "preloader";
 $lang['ltr_editor_logo_image'] = "logo";
 $lang['ltr_editor_dashboard'] = "dashboard";
