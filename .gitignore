@@ -45,3 +45,4 @@ node_modules/
 
 # Ignore generated assets from build tools (if using frontend build systems like npm or grunt)
 public/assets/
+.qodo

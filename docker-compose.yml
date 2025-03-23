@@ -18,13 +18,14 @@ services:
     platform: linux/amd64  # Specify architecture to use emulation
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword  # Set a strong root password
-      MYSQL_DATABASE: codeigniter_db  # Name of the initial database
+      MYSQL_DATABASE: pixelium  # Name of the initial database
       MYSQL_USER: codeigniter_user  # Create a specific user for CodeIgniter
       MYSQL_PASSWORD: codeigniter_password  # Password for the specific user
     ports:
       - "3306:3306"  # Expose MySQL's default port
     volumes:
       - db_data:/var/lib/mysql  # Store MySQL data outside of the container
+      - ./db:/docker-entrypoint-initdb.d
     restart: always
 
 volumes:

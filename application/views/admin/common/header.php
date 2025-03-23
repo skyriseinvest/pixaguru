@@ -394,7 +394,7 @@
                         </a>
                     </li>
 
-                    <!-- <li>
+                    <li>
                         <a class="<?php echo isset($import_export) ? html_escape($import_export) : ''; ?>" href="<?php echo base_url() ?>admin/download">
                             <span class="pg-nav-icon">
                                 <svg width="23" height="23" viewBox="0 0 23 23">
@@ -405,7 +405,7 @@
                             </span>
                             <span> <?php echo html_escape($this->lang->line('ltr_header_download_menu')); ?></span>
                         </a>
-                    </li> -->
+                    </li>
                      <li>
                         <a class="<?php echo isset($template_importer) ? html_escape($template_importer) : ''; ?>" href="<?php echo base_url() ?>admin/template-importer">
                             <span class="pg-nav-icon">                                   
